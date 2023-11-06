@@ -1,0 +1,692 @@
+{
+  "dept": [
+    {
+      "id": 1,
+      "name": "Mathematics"
+    },
+    {
+      "id": 2,
+      "name": "Mechanical"
+    },
+    {
+      "id": 3,
+      "name": "Computer science"
+    },
+    {
+      "id": 4,
+      "name": "Information technology"
+    }
+  ],
+  "deg_prog": [
+    {
+      "id": 1,
+      "deg_name": "msc_it"
+    },
+    {
+      "id": 2,
+      "deg_name": "msc_cs"
+    },
+    {
+      "id": 3,
+      "deg_name": "msc_em"
+    }
+  ],
+  "semester": [
+    {
+      "sem_id": 1,
+      "sem_num": 1,
+      "req_year": "2023",
+      "sem": "odd",
+      "deg_name": "msc_it"
+    },
+    {
+      "sem_id": 2,
+      "sem_num": 2,
+      "req_year": "2023",
+      "sem": "even",
+      "deg_name": "msc_it"
+    },
+    {
+      "sem_id": 3,
+      "sem_num": 3,
+      "req_year": "2019",
+      "sem": "odd",
+      "deg_name": "msc_it"
+    },
+    {
+      "sem_id": 4,
+      "sem_num": 4,
+      "req_year": "2019",
+      "sem": "even",
+      "deg_name": "msc_it"
+    },
+    {
+      "sem_id": 5,
+      "sem_num": 1,
+      "req_year": "2023",
+      "sem": "odd",
+      "deg_name": "msc_cs"
+    },
+    {
+      "sem_id": 6,
+      "sem_num": 2,
+      "req_year": "2023",
+      "sem": "even",
+      "deg_name": "msc_cs"
+    },
+    {
+      "sem_id": 7,
+      "sem_num": 3,
+      "req_year": "2019",
+      "sem": "odd",
+      "deg_name": "msc_cs"
+    },
+    {
+      "sem_id": 8,
+      "sem_num": 4,
+      "req_year": "2019",
+      "sem": "even",
+      "deg_name": "msc_cs"
+    },
+    {
+      "sem_id": 9,
+      "sem_num": 1,
+      "req_year": "2023",
+      "sem": "odd",
+      "deg_name": "msc_em"
+    },
+    {
+      "sem_id": 10,
+      "sem_num": 2,
+      "req_year": "2019",
+      "sem": "even",
+      "deg_name": "msc_em"
+    }
+  ],
+  "batch": [
+    {
+      "bat_id": 1,
+      "sem_id": 1,
+      "sem_num": 1,
+      "name": "A"
+    },
+    {
+      "bat_id": 2,
+      "sem_id": 1,
+      "sem_num": 1,
+      "name": "B"
+    },
+    {
+      "bat_id": 3,
+      "sem_id": 2,
+      "sem_num": 2,
+      "name": "A"
+    },
+    {
+      "bat_id": 4,
+      "sem_id": 2,
+      "sem_num": 2,
+      "name": "B"
+    },
+    {
+      "bat_id": 5,
+      "sem_id": 6,
+      "sem_num": 1,
+      "name": "A"
+    },
+    {
+      "bat_id": 6,
+      "sem_id": 6,
+      "sem_num": 1,
+      "name": "B"
+    },
+    {
+      "bat_id": 7,
+      "sem_id": 7,
+      "sem_num": 2,
+      "name": "A"
+    },
+    {
+      "bat_id": 8,
+      "sem_id": 7,
+      "sem_num": 2,
+      "name": "B"
+    },
+    {
+      "bat_id": 9,
+      "sem_id": 10,
+      "sem_num": 1,
+      "name": "A"
+    },
+    {
+      "bat_id": 10,
+      "sem_id": 10,
+      "sem_num": 1,
+      "name": "B"
+    }
+  ],
+  "subject": [
+    {
+      "sem_id": 1,
+      "sub_code": 101,
+      "sub_title": "c",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 1,
+      "sub_code": 102,
+      "sub_title": "digital system",
+      "req_year": "2023",
+      "tcp": 5
+    },
+    {
+      "sem_id": 1,
+      "sub_code": 103,
+      "sub_title": "english",
+      "req_year": "2023",
+      "tcp": 3
+    },
+    {
+      "sem_id": 2,
+      "sub_code": 104,
+      "sub_title": "c++",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 2,
+      "sub_code": 105,
+      "sub_title": "data structure",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 2,
+      "sub_code": 106,
+      "sub_title": "computer architechure",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 3,
+      "sub_code": 107,
+      "sub_title": "combinatics and graph theory",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 3,
+      "sub_code": 108,
+      "sub_title": "logic and abtract algebra",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 3,
+      "sub_code": 109,
+      "sub_title": "python lab",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 4,
+      "sub_code": 110,
+      "sub_title": "computer networks",
+      "req_year": "2019",
+      "tcp": 5
+    },
+    {
+      "sem_id": 4,
+      "sub_code": 111,
+      "sub_title": "database management system",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 4,
+      "sub_code": 112,
+      "sub_title": "probability and statatics",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 5,
+      "sub_code": 113,
+      "sub_title": "calculus",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 5,
+      "sub_code": 114,
+      "sub_title": "physis",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 5,
+      "sub_code": 115,
+      "sub_title": "c lab",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 6,
+      "sub_code": 116,
+      "sub_title": "chemistry",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 6,
+      "sub_code": 117,
+      "sub_title": "communicative english",
+      "req_year": "2023",
+      "tcp": 3
+    },
+    {
+      "sem_id": 6,
+      "sub_code": 118,
+      "sub_title": "transform techniques",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 7,
+      "sub_code": 119,
+      "sub_title": "signal and system",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 7,
+      "sub_code": 120,
+      "sub_title": "microprocessor",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 7,
+      "sub_code": 121,
+      "sub_title": "operating system",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 8,
+      "sub_code": 122,
+      "sub_title": "theory of computation",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 8,
+      "sub_code": 123,
+      "sub_title": "java and network programming",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 8,
+      "sub_code": 124,
+      "sub_title": "dbms lab",
+      "req_year": "2019",
+      "tcp": 4
+    },
+    {
+      "sem_id": 9,
+      "sub_code": 125,
+      "sub_title": "media",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 9,
+      "sub_code": 126,
+      "sub_title": "science",
+      "req_year": "2023",
+      "tcp": 3
+    },
+    {
+      "sem_id": 9,
+      "sub_code": 127,
+      "sub_title": "maths",
+      "req_year": "2023",
+      "tcp": 4
+    },
+    {
+      "sem_id": 10,
+      "sub_code": 128,
+      "sub_title": "graph",
+      "req_year": "2019",
+      "tcp": 3
+    },
+    {
+      "sem_id": 10,
+      "sub_code": 129,
+      "sub_title": "graphics",
+      "req_year": "2019",
+      "tcp": 3
+    },
+    {
+      "sem_id": 10,
+      "sub_code": 130,
+      "sub_title": "design",
+      "req_year": "2019",
+      "tcp": 4
+    }
+  ],
+  "faculty": [
+    {
+      "fac_id": 1,
+      "fac_name": "c-a",
+      "sub_code": 101,
+      "sub_title": "c",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 2,
+      "fac_name": "c-b",
+      "sub_code": 101,
+      "sub_title": "c",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 3,
+      "fac_name": "c-c",
+      "sub_code": 101,
+      "sub_title": "c",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 4,
+      "fac_name": "dsys-a",
+      "sub_code": 102,
+      "sub_title": "digital system",
+      "dept_name": "maths",
+      "tcp": 5
+    },
+    {
+      "fac_id": 5,
+      "fac_name": "dsys-b",
+      "sub_code": 102,
+      "sub_title": "digital system",
+      "dept_name": "maths",
+      "tcp": 5
+    },
+    {
+      "fac_id": 6,
+      "fac_name": "dsys-c",
+      "sub_code": 102,
+      "sub_title": "digital system",
+      "dept_name": "maths",
+      "tcp": 5
+    },
+    {
+      "fac_id": 7,
+      "fac_name": "eng-a",
+      "sub_code": 103,
+      "sub_title": "english",
+      "dept_name": "maths",
+      "tcp": 3
+    },
+    {
+      "fac_id": 8,
+      "fac_name": "eng-b",
+      "sub_code": 103,
+      "sub_title": "english",
+      "dept_name": "maths",
+      "tcp": 3
+    },
+    {
+      "fac_id": 9,
+      "fac_name": "eng-c",
+      "sub_code": 103,
+      "sub_title": "english",
+      "dept_name": "maths",
+      "tcp": 3
+    },
+    {
+      "fac_id": 10,
+      "fac_name": "c++-a",
+      "sub_code": 104,
+      "sub_title": "c++",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 11,
+      "fac_name": "c++-b",
+      "sub_code": 104,
+      "sub_title": "c++",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 12,
+      "fac_name": "c++-c",
+      "sub_code": 104,
+      "sub_title": "c++",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 13,
+      "fac_name": "datas-a",
+      "sub_code": 105,
+      "sub_title": "data structure",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 14,
+      "fac_name": "datas-b",
+      "sub_code": 105,
+      "sub_title": "data structure",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 15,
+      "fac_name": "datas-c",
+      "sub_code": 105,
+      "sub_title": "data structure",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 16,
+      "fac_name": "ca-a",
+      "sub_code": 106,
+      "sub_title": "computer architechure",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 17,
+      "fac_name": "ca-b",
+      "sub_code": 106,
+      "sub_title": "computer architechure",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 18,
+      "fac_name": "ca-c",
+      "sub_code": 106,
+      "sub_title": "computer architechure",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 19,
+      "fac_name": "cgt-a",
+      "sub_code": 107,
+      "sub_title": "combinatics and graph theory",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 20,
+      "fac_name": "cgt-b",
+      "sub_code": 107,
+      "sub_title": "combinatics and graph theory",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 21,
+      "fac_name": "cgt-c",
+      "sub_code": 107,
+      "sub_title": "combinatics and graph theory",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 22,
+      "fac_name": "laa-a",
+      "sub_code": 108,
+      "sub_title": "logic and abtract algebra",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 23,
+      "fac_name": "laa-b",
+      "sub_code": 108,
+      "sub_title": "logic and abtract algebra",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 24,
+      "fac_name": "laa-c",
+      "sub_code": 108,
+      "sub_title": "logic and abtract algebra",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 25,
+      "fac_name": "pylab-a",
+      "sub_code": 109,
+      "sub_title": "python lab",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 26,
+      "fac_name": "pylab-b",
+      "sub_code": 109,
+      "sub_title": "python lab",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 27,
+      "fac_name": "pylab-c",
+      "sub_code": 109,
+      "sub_title": "python lab",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 28,
+      "fac_name": "cm-a",
+      "sub_code": 110,
+      "sub_title": "computer networks",
+      "dept_name": "maths",
+      "tcp": 5
+    },
+    {
+      "fac_id": 29,
+      "fac_name": "cm-b",
+      "sub_code": 110,
+      "sub_title": "computer networks",
+      "dept_name": "maths",
+      "tcp": 5
+    },
+    {
+      "fac_id": 30,
+      "fac_name": "cm-c",
+      "sub_code": 110,
+      "sub_title": "computer networks",
+      "dept_name": "maths",
+      "tcp": 5
+    },
+    {
+      "fac_id": 31,
+      "fac_name": "dbms-a",
+      "sub_code": 111,
+      "sub_title": "database management system",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 32,
+      "fac_name": "dbms-b",
+      "sub_code": 111,
+      "sub_title": "database management system",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 33,
+      "fac_name": "dbms-c",
+      "sub_code": 111,
+      "sub_title": "database management system",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 34,
+      "fac_name": "ps-a",
+      "sub_code": 112,
+      "sub_title": "probability and statatics",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 35,
+      "fac_name": "ps-b",
+      "sub_code": 112,
+      "sub_title": "probability and statatics",
+      "dept_name": "maths",
+      "tcp": 4
+    },
+    {
+      "fac_id": 36,
+      "fac_name": "ps-c",
+      "sub_code": 112,
+      "sub_title": "probability and statatics",
+      "dept_name": "maths",
+      "tcp": 4
+    }
+  ],
+  "subfac": [
+    [
+      {
+        "s_no": 1,
+        "sub_code": 107,
+        "sub_title": "combinatics and graph theory",
+        "fac_name": "cgt-a"
+      },
+      {
+        "s_no": 2,
+        "sub_code": 108,
+        "sub_title": "logic and abtract algebra",
+        "fac_name": "laa-b"
+      },
+      {
+        "s_no": 3,
+        "sub_code": 109,
+        "sub_title": "python lab",
+        "fac_name": "pylab-c"
+      }
+    ]
+  ]
+}
